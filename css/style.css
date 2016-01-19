@@ -1,0 +1,820 @@
+body {
+    width: 1600px;
+    height: 3745px;
+}
+.login {
+    position: relative;
+    background-color: #3B4348;
+    width: auto;
+    height: 20px;
+    text-align: end;
+    font-size: 12px;
+    box-shadow: 0 6px 10px -5px;
+}
+
+.login p {
+    position: absolute;
+    margin: 1px 1275px 2px;
+}
+
+.log {
+    padding-right: 205px;
+}
+
+.reg {
+    padding-right: 10px;
+}
+
+.login img {
+    position: absolute;
+    top: 2px;
+    right: 160px;
+}
+
+.login a {
+    text-decoration: none;
+    color: white;
+}
+
+.login a:hover {
+    color: #067DC8;
+}
+
+.site {
+    background-color: #FFFFFF;
+    width: 1200px;
+    height: 3310px;
+    margin: 0 200px;
+}
+.header {
+    height: 90px;
+    position: relative;
+}
+.logo {
+    margin: 20px 0 0 0;
+    width: 250px;
+    float: left;
+}
+
+.phones {
+    width: 320px;
+    height: 60px;
+    float: left;
+    font-size: 14px;
+    margin: 20px 140px 0;
+}
+
+.phones p {
+    line-height: 20px;
+}
+
+.phones img {
+    width: 10px;
+    padding: 3px 3px;
+}
+
+.backgroundphone, .backgroundphone_2, .backgroundphone_3, .backgroundphone_4 {
+    background-color: #EBEBEB;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    z-index: 65;
+}
+
+.backgroundphone {
+    left: 390px;
+    top: 33px;
+}
+.backgroundphone_2 {
+    left: 390px;
+    top: 56px;
+}
+.backgroundphone_3 {
+    left: 550px;
+    top: 33px;
+}
+.backgroundphone_4 {
+    left: 550px;
+    top: 56px;
+}
+
+.phone, .phone_3 {
+    padding: 20px;
+}
+.phone_2, .phone_4 {
+    padding: 35px;
+}
+.phone_4 a {
+    text-decoration: none;
+    color: black;
+}
+.phone_4 a:hover {
+    color: #067DC8;
+    text-decoration: underline;
+}
+
+.search {
+    position: absolute;
+    right: 160px;
+    top: 27px;
+}
+.search input[type="search"]{
+    width: 65px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    vertical-align: middle;
+    position: absolute;
+    top: 18px;
+    right: 30px;
+}
+.search input[type="submit"] {;
+    width: 30px;
+    height: 30px;
+    background: url("../images/header/loupe2.png") no-repeat;
+    border: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+.search input[type="submit"]:active,
+.search input[type="submit"]:focus {
+    outline: none;
+}
+.basket {
+    border: 1px dashed black;
+    width: 155px;
+    height: 29px;
+    float: left;
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+.basket p {
+    position: absolute;
+    top: -8px;
+    right: 45px;
+    font-size: 14px;
+}
+
+.basket_1 {
+    position: absolute;
+    top: 2px;
+    right: 120px;
+    width: 25px;
+    display: block;
+}
+.basket_2 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    width: 16px;
+    height: 8px;
+}
+    /*                        Навигация
+       ****************************************************  */
+.nav {
+    height: 45px;
+    border: 1px solid #E4E4E4;
+    box-shadow: 0 6px 10px -5px;
+    font-size: 12px;
+    background-color: #F6F6F6;
+    text-transform: uppercase;
+    position: relative;
+}
+.menu {
+    padding: 5px 0 0 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+    border-right: 1px dotted #A0A0A0;
+    padding: 0 10px;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color:black;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: #0971B1;
+    color: white;
+}
+.menu.submenu ul {
+    color: black;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 325px;
+    height: 185px;
+    top: 43px;
+    left: 0;
+    background: url("../images/nav/menu_-watch.png")  no-repeat;
+    border-bottom: 5px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+
+ul.submenu > li {
+    display: block;
+}
+
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    text-decoration: none;
+}
+
+ul.submenu > li > a:hover {
+    text-decoration: none;
+    background-color: #0971B1;
+    color: white;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+.opt {
+    text-transform: none;
+    font-size: 14px;
+    width: 240px;
+    text-align: end;
+    position: absolute;
+    right: 20px;
+}
+.opt a {
+    text-decoration: none;
+}
+
+.opt a:hover {
+    background-color: #F6F6F6;
+    color: black;
+    text-decoration: underline;
+}
+/*                        Aside
+       ****************************************************  */
+.aside {
+    width: 240px;
+    height: auto;
+    float: left;
+}
+.categors {
+    background-color: #3B4348;
+    color: white;
+    height: 30px;
+    position: relative;
+    border-radius: 5px;
+}
+.categors p {
+    padding: 6px 0 0 12px;
+}
+
+.categors img {
+    position: absolute;
+    right: 4px;
+    top: 3px;
+}
+.filter {
+    text-transform: uppercase;
+}
+.list {
+    line-height: 30px;
+    list-style-type: none;
+    padding: 0 0 0 10px;
+}
+
+.list a {
+    color: #61676A;
+    text-decoration: none;
+}
+
+.list li:hover {
+    background: #F5F5F5 url("../images/aside/list-marker.png") no-repeat;
+    background-position: right;
+    background-position-x: 210px;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+}
+.sales {
+    margin: -10px 0 18px 10px;
+}
+.sales a {
+    color: #BA3F49;
+    font-family: OpenSansBold, sans-serif;
+    font-weight: bold;
+}
+
+ul.subfilter {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 190px;
+    height: 245px;
+    top: 380px;
+    left: 450px;
+    line-height: 10px;
+    border: 1px solid #E8E8E8;
+    padding: 0;
+    border-radius: 5px;
+}
+
+ul.subfilter > li {
+    display: block;
+}
+
+ul.subfilter > li > a {
+    display: block;
+    padding: 10px;
+    color: #61676A;
+    font-size: 14px;
+    background-color: white;
+    text-decoration: none;
+}
+
+ul.subfilter > li > a:hover {
+    background: #F5F5F5;
+    z-index: 5;
+    text-decoration: none;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    color: #61676A;
+}
+ul.list > li:hover > ul.subfilter {
+    display: block;
+}
+
+.sidebar img {
+    width: 240px;
+    height: 360px
+}
+.news {
+    position: relative;
+}
+.icon {
+    width: 20px;
+    border: 1px solid #0971B1;
+    border-radius: 3px;
+    position: absolute;
+    left: 210px;
+    top: -6px;
+}
+.news_p {
+    border-bottom: 1px solid black;
+    color: #0971B1;
+    font-family: OpenSansBold, sans-serif;
+    font-weight: bold;
+}
+
+.new img {
+    width: 110px;
+}
+.new_1, .new_2, .new_3 {
+    border-bottom: 1px solid #D1D1D1;
+    position: relative;
+    color: #808080;
+    height: 150px;
+    font-size: 11px;
+}
+.new h3 {
+    font-size: 14px;
+    font-weight: normal;
+}
+.new_1 img, .new_2 img, .new_3 img {
+    float: right;
+}
+.new_2 img, .new_3 img {
+    margin: -115px 0 0 0;
+}
+.new_2 p, .new_3 p {
+    width: 130px;
+}
+
+.new p:hover {
+    color: #999999;
+}
+/*                        Content
+       ****************************************************  */
+.content {
+    position: relative;
+}
+.baners {
+    position: relative;
+    top: 505px;
+    left: 10px;
+    margin-left: 245px;
+    border-bottom: 5px solid #3B4348;
+    height: 120px;
+}
+.baners a {
+    padding: 0 85px 0 0;
+}
+.baners a:last-child{
+    padding: 0;
+}
+/*СКИДКИ*/
+.sale {
+    position: absolute;
+    top: 615px;
+    left: 255px;
+    height: 390px;
+    width: 950px;
+    border-bottom: 5px solid #3B4348;
+}
+.sale h2, .novelty h2 {
+    text-transform: uppercase;
+    color: #076cac;
+    font-size: 16px;
+    margin: 15px 0 0 0;
+}
+.sale div, .novelty div, .viewed div {
+    float: left;
+    margin: 15px 0 0 130px;
+}
+.sale_img, .novelty_img {
+    height: 200px;
+}
+
+.label, .label2 {
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+.label_2, .label2_2 {
+    position: absolute;
+    top: 0;
+    left: 360px;
+}
+.label_3, .label2_3 {
+    position: absolute;
+    top: 0;
+    left: 670px;
+}
+.arrow_1, .arrow2_1 {
+    position: absolute;
+    top: 128px;
+    right: -5px;
+}
+.arrow_2, .arrow2_2 {
+    position: absolute;
+    top: 128px;
+    left: 0;
+    transform: rotate(180deg);
+}
+.span {
+    position: absolute;
+    margin: 0;
+}
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 5px 0 0 -25px;
+}
+.sex {
+    margin: 5px 0 0 33px;
+    color: #999999;
+}
+.price {
+    margin: 12px 0 0 110px;
+    text-decoration: line-through;
+    color: #737373;
+}
+.stock {
+    margin: 0 0 0-25px;
+    color: #009933;
+}
+.sale_price, .novelty_price {
+    margin: -20px 0 0 90px;
+    font-size: 22px;
+    color: #991402;
+    font-weight: bold;
+}
+/*НОВИНКИ*/
+.novelty {
+    position: absolute;
+    top: 1000px;
+    left: 255px;
+    height: 390px;
+    width: 950px;
+}
+.sex2 {
+    margin: 0 0 30px 33px;
+    color: #999999;
+}
+.novelty_price {
+    color: #000;
+}
+.txt_orang {
+    color: #FFA842;
+    padding: 0;
+    margin: 0 -40px;
+}
+/*БАННЕР*/
+.banners {
+    position: relative;
+    bottom: 290px;
+    left: -210px;
+}
+.banner {
+    width: 950px;
+    height: 268px;
+    position: absolute;
+    top: 1637px;
+    left: 465px;
+    border-bottom: 5px solid #3B4348;
+}
+
+/*Бренды*/
+.brands {
+    position: absolute;
+    top: 1765px;
+    left: 463px;
+    width: 950px;
+    height: 270px;
+}
+.brands img {
+    margin: 0 30px 15px 30px;
+}
+.arrow_left {
+    position: absolute;
+    top: 40px;
+    left: -30px;
+}
+.arrow_right {
+    position: absolute;
+    top: 40px;
+    right: -30px;
+}
+/*ПОПУЛЯРНЫЕ*/
+.viewed {
+    position: absolute;
+    top: 1740px;
+    left: 253px;
+    height: 390px;
+    width: 950px;
+}
+.viewed h2 {
+    text-transform: uppercase;
+    color: #076cac;
+    font-size: 16px;
+    margin: 5px 0 40px 0;
+}
+.label3 {
+    position: absolute;
+    top: 70px;
+    left: 90px;
+}
+.label3_2 {
+    position: absolute;
+    top: 70px;
+    left: 400px;
+}
+.label3_3 {
+    position: absolute;
+    top: 70px;
+    left: 720px;
+}
+/*БАННЕРЫ*/
+.viewed div:last-child {
+    margin: 70px 0 0 0;
+    height: 140px;
+    width: 950px;
+    border-bottom: 5px solid #3B4348;
+}
+.banners3_a {
+    padding: 0 19px 0 5px;
+}
+/*О нас*/
+.aboute {
+    position: absolute;
+    top: 2320px;
+    left: 253px;
+    height: 785px;
+    width: 950px;
+}
+.aboute h2 {
+    font-family: OpenSansBold, sans-serif;
+    text-transform: uppercase;
+    color: #076cac;
+    font-size: 16px;
+    margin: 20px 0 10px 0;
+}
+.aboute h3 {
+    font-size: 16px;
+    font-family: OpenSansBold, sans-serif;
+    text-align: center;
+}
+.aboute div {
+    font-family: OpenSansLight, sans-serif;
+    font-size: 14px;
+    color: #989898;
+    float: left;
+    width: 280px;
+    margin: 0 26px 0 10px;
+}
+.aboute img {
+    margin: 0 0 0 85px;
+}
+/*FOOTER*/
+.footer {
+    height: 400px;
+    position: relative;
+    background: black;
+    background-image: url("../images/footer/bg.png")
+    border-top: 5px solid #0971B1;;
+    color: white;
+}
+.bg {
+    position: absolute;
+    right: 0;
+}
+.footer_menu {
+    width: 450px;
+    height: 260px;
+    margin-left: 200px;
+    padding: 35px 0 0 0;
+    line-height: 23px;
+    font-size: 14px;
+}
+.footer_menu a {
+    text-decoration: none;
+    color: #525252;
+}
+.footer_menu a:hover {
+    color: #BABABA;
+    text-decoration: underline;
+}
+.footer_menu ul {
+    list-style: none;
+    color: #FFFFFF;
+}
+.footer_menu div{
+    float: left;
+    padding: 0 30px 0 0;
+}
+.categories {
+    padding: 0;
+}
+.yandex {
+    margin: 0;
+    font-size: 12px;
+}
+.footer_contact {
+    position: absolute;
+    top: 0;
+    left: 685px;
+    height: 190px;
+    width: 505px;
+    font-size: 16px;
+    color: #CCCCCC;
+}
+.footer_nav {
+    margin: 45px 0 0 15px;
+}
+.footer_nav_p {
+    margin: -35px 0 0 40px;
+}
+.footer_phone {
+    margin: 10px 0 0 15px;
+}
+.footer_phone_p {
+    margin: -25px 0 0 40px;
+}
+.footer_email {
+    margin: 25px 0 0 10px;
+}
+.footer_email_p {
+    margin: -20px 0 0 45px;
+}
+
+.subscription {
+    position: absolute;
+    top: 190px;
+    left: 695px;
+    width: 390px;
+    height: 90px;
+    border-top: 2px solid #3A3A3A;
+    border-bottom: 2px solid #3A3A3A;
+}
+.subscription p {
+    margin: 15px 0 10px 0;
+    font-size: 16px;
+    color: #CCCCCC;
+}
+.form input[type="email"] {
+    height: 25px;
+    width: 150px;
+    background: black;
+    border: 1px solid #464646;
+}
+.form input[type="email"] {
+    color: white;
+}
+.form input[type="submit"] {
+    height: 30px;
+    width: 80px;
+    background: #464646;
+    color: #FFFFFF;
+    border: 0;
+    margin: -5px;
+}
+.social {
+    position: absolute;
+    top: 277px;
+    left: 695px;
+}
+.social p {
+    color: #C3C3C3;
+    margin-bottom: 10px;
+}
+.social_icon img {
+    float: left;
+    margin-left: -1px;
+}
+/*LINE*/
+.line {
+    background: #3B4348;
+    width: 1600px;
+    height: 25px;
+    position: fixed;
+    top: 60%;
+}
+.line ul {
+    list-style-type: none;
+    position: relative;
+    margin: 4px 0 0 760px;
+    font-size: 14px;
+}
+.line li {
+    float: left;
+    padding-right: 10px;
+}
+.line a {
+    text-decoration: none;
+    color: white;
+}
+.gift {
+    margin: -5px -3px 0 30px;
+    padding: 5px 0 0 25px;
+    background: #0971B1;
+    height: 20px;
+    width: 250px;
+    color: #FFFFFF;
+}
+.line a:hover {
+    color: #116AA6;
+}
+/***************************************/
+.submenu2 {
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    height: 185px;
+    top: 0;
+    font-size: 14px;
+    left: 175px;
+    background: white;
+}
+.submenu2 li {
+    width: 145px;
+    height: 27px;
+    padding-top: 8px;
+}
+.submenu2 a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 100px 10px 0;
+}
+.submenu2 a:hover {
+    color: white;
+    text-decoration: none;
+    background: #0971B1;
+}
+.img_submenu2 {
+    position: absolute;
+    top: 95px;
+    right: 5px;
+}
